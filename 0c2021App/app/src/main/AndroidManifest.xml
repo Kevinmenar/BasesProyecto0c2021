@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reese.a0c2021app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        android:debuggable="true"
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registrar"
+            android:label="Registrar" />
+        <activity
+            android:name=".Guardian"
+            android:label="Guardian" />
+        <activity
+            android:name=".Denuncia"
+            android:label="Denuncia" />
+        <activity
+            android:name=".Juez"
+            android:label="Juez" />
+        <activity
+            android:name=".ModificarDenuncia"
+            android:label="Modificar Denuncia" />
+        <activity
+            android:name=".ConsulDenuncia"
+            android:label="Consultar Denuncia" />
+        <activity
+            android:name=".JuezConfirSolucion"
+            android:label="Confirmar Denuncia" />
+        <activity
+            android:name=".GuardianReporteCarNeutral"
+            android:label="Reporte Carbono Neutral" />
+        <activity android:name=".JuezConfirmarDenuncia" />
+        <activity android:name=".Oficial" />
+        <activity android:name=".ReporCarbonoNeutralidad"></activity>
+    </application>
+
+</manifest>

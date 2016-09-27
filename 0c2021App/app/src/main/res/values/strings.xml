@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">0c2021App</string>
+    <string name="action_settings">Settings</string>\
+
+    <string-array name="listaUser">
+        <item>"Guardián"</item>
+        <item>"Oficial"</item>
+        <item>"Juez"</item>
+    </string-array>
+
+    <string-array name="listaGenero">
+        <item>"Masculino"</item>
+        <item>"Fenemino"</item>
+    </string-array>
+
+    <string-array name="CarbonoNeutralidad">
+        <item>"Viaje en T. Público"</item>
+        <item>"Realizó teletrabajo"</item>
+        <item>"Reciclaje"</item>
+        <item>"..."</item>
+    </string-array>
+
+</resources>
