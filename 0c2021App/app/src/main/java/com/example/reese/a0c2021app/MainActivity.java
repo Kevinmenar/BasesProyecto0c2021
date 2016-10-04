@@ -3,6 +3,7 @@ package com.example.reese.a0c2021app;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -114,7 +115,12 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+//            return true;
+            AlertDialog alertDialog;
+            alertDialog = new AlertDialog.Builder(this).create();
+            alertDialog.setTitle("Desarrolladores");
+            alertDialog.setMessage("Kevin Mendez\n Fernando\n Edwin Rees");
+            alertDialog.show();
         }
 
         return super.onOptionsItemSelected(item);

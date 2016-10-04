@@ -7,6 +7,19 @@ import android.widget.Spinner;
 
 public class Registrar extends AppCompatActivity {
 
+    String nombre;
+    String apellido;
+    String genero;
+    String rol;
+    int edad;
+    int cedula;
+    String correo;
+    String telefono;
+    String provincia;
+    String canton;
+    String distrito;
+    String detalle;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
